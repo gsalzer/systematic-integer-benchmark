@@ -1,0 +1,26 @@
+// SPDX-License-Identifier: GPL-3.0
+pragma solidity ^{{ compilerVersion }};
+
+contract {{ contractName }} {
+
+    {{{ source_contract_level_code }}}
+
+    {{{ sink_contract_level_code }}}
+
+
+    constructor( {{{ source_constructor_argument_code }}} ) public payable {
+        {{{ source_constructor_body_code }}}
+    }
+
+
+    function test( {{{ source_function_argument_code }}} ) public payable {{{ sink_function_modifier_code }}} {
+
+        {{{ source_function_body_code }}}
+
+        {{{ operation_function_body_code }}}
+
+        {{{ sink_function_body_code }}}
+    }
+
+    function() external payable {}
+}

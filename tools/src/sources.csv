@@ -1,0 +1,9 @@
+"id";"description";"contract_level_code";"function_argument_code";"function_body_code";"constructor_argument_code";"constructor_body_code"
+"funcconstmax";"constant assigned maximum value in function";;;"{{{ type }}} num = {{{ type_max_val }}};";;
+"funcconstmin";"constant assigned minimum value in function";;;"{{{ type }}} num = {{{ type_min_val }}};";;
+"constrassignsconstvarmax";"Contract level variable gets max value assigned in constructor";"{{{ type }}} num;";;;;"num = {{{ type_max_val }}};"
+"constrassignsconstvarmin";"Contract level variable gets min value assigned in constructor";"{{{ type }}} num;";;;;"num = {{{ type_min_val }}};"
+"constrargvariable";"Contract level variable gets assigned from constructor argument";"{{{ type }}} num;";;;"{{{ type }}} arg";"num = arg;"
+"funcarg";"Function argument";;"{{{ type }}} num";;;
+"contractconstantmax";"Contract level constant with max value";"{{{ type }}} num = {{{ type_max_val }}};";;;;
+"contractconstantmin";"Contract level constant with minimum value";"{{{ type }}} num = {{{ type_min_val }}};";;;;

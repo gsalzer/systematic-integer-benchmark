@@ -1,0 +1,11 @@
+// SPDX-License-Identifier: GPL-3.0
+pragma solidity ^{{ compilerVersion }};
+
+contract {{ contractName }} {
+    function test() public pure returns ({{ type }}) {
+
+        {{{ code }}}
+        
+        return num;
+    }
+}

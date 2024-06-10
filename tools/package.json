@@ -1,0 +1,20 @@
+{
+  "name": "integer_bugs",
+  "version": "1.0.0",
+  "description": "CSV-Table containing all bugs to be automatically tested. Column ```code``` contains the code which will be inserted into a contract, the variable which will be returned always is named ```num```.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^11.1.0",
+    "csv-parse": "^5.5.2",
+    "csv-stringify": "^6.4.4",
+    "ganache": "^7.9.1",
+    "mustache": "^4.2.0",
+    "solc": "^0.8.21",
+    "web3": "^4.2.0"
+  }
+}
